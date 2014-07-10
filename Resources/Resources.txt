@@ -298,4 +298,4 @@ ON GOLD STAR PAGE
 
 Document!
 
-<iframe src="http://docs.google.com/viewer?url=http%3A%2F%2Ffiles.longmont-nest-to-wings.webnode.com%2F200000036-f3db701adc%2FGOLD%2520STAR.pdf&embedded=true" width="500" height="650" style="border: none;"></iframe>
+<iframe src="http://docs.google.com/viewer?url=http%3A%2F%2Ffiles.longmont-nest-to-wings.webnode.com%2F200000036-f3db701adc%2FGOLD%2520STAR.pdf&embedded=true" width="750" height="100" style="border: none;"></iframe>
