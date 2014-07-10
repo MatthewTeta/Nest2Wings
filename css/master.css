@@ -25,7 +25,7 @@ nav {
 nav a {
   display: inline-block;
   color: #fff;
-  padding: 1em 2em;
+  padding: 0.5em 1em;
   margin: 0;
   font-size: 1.5em;
   font-family: Roboto;
@@ -57,7 +57,7 @@ nav a.active {
   border-left-width: 0;
   border-right-width: 0;
   border-style: solid;
-  border-color: #ffd4d4;
+  border-color: #fff;
 }
 
 .content {
@@ -79,6 +79,6 @@ nav a.active {
 }
 
 .logo {
-  height: 50px;
+  height: 25px;
   width: 50px;
 }
