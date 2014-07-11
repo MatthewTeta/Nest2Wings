@@ -63,8 +63,8 @@ nav a.active {
 .content {
   position: absolute;
   top: 13%;
-  right: 27%;
-  left: 27%;
+  right: 29%;
+  left: 29%;
   margin-bottom: 3.2%;
   padding: 1em;
   text-align: center;
@@ -86,4 +86,9 @@ nav a.active {
 
 .right-align {
   text-align: center;
+}
+
+img.sponsors {
+  display: block;
+  margin: auto;
 }
