@@ -9,6 +9,11 @@
     <!-- CSS Links -->
     <link rel="stylesheet" href="../css/master.css">
 
+    <!-- JS Links -->
+    <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="sendmail.js"></script>
+
   </head>
   <body>
 
@@ -22,18 +27,18 @@
       --><a class="active" href="">Contact Us</a>
     </nav>
 
-    <div class="content">
+    <div class="content cc">
 
       <h1>Contact Us</h1>
 
-      <div class="sub-content">
+      <div class="sub-content csc">
 
-        <form class="form" action="../php/send-mail.php" methon="post">
-          <input type="text" name="name" placeholder="Name">
-          <input type="text" name="email" placeholder="Email Address">
-          <input type="subject" name="subject" placeholder="Subject">
-          <textarea name="body" placeholder="body"></textarea>
-          <input type="submit" name="submit" value="Send">
+        <form class="form">
+          <input type="text" name="name" placeholder="Name" class="f-name">
+          <input type="text" name="email" placeholder="Email Address" class="f-email">
+          <input type="subject" name="subject" placeholder="Subject" class="f-subject">
+          <textarea name="body" placeholder="body" class="f-body"></textarea>
+          <input type="button" name="submit" value="Send" class="submit">
         </form>
 
       </div>
