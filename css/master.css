@@ -60,6 +60,10 @@ nav a.active {
   border-color: #fff;
 }
 
+a {
+  color: #f99;
+}
+
 .content {
   position: absolute;
   top: 13%;
@@ -70,12 +74,17 @@ nav a.active {
   text-align: center;
   background-color: #fff;
   z-index: 1;
+  border: 5px solid #ff9999;
+  border-radius: 10px;
+}
+
+.content h1 {
+  border-bottom: 1px solid #ff9999;
 }
 
 .sub-content {
   padding: 1em;
   margin: 0;
-  border: 1px solid #ff9999;
   text-align: left;
 }
 
@@ -90,5 +99,46 @@ nav a.active {
 
 img.sponsors, img.center-img {
   display: block;
+  margin: auto;
+}
+
+.sign-up {
+  display: inline-block;
+}
+
+.twitter-box {
+  position: fixed;
+  left: 71%;
+  top: 18%;
+  background-color: #fff;
+  border: 5px solid #ff9999;
+  border-left: 0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0;
+  width: 20em;
+}
+
+.twitter {
+  margin: 1em;
+}
+
+.t-header {
+  background-color: #ff9999;
+  width: 100%;
+  height: 3.2em;
+  margin: 0;
+  margin-bottom: 1em;
+  border-top-right-radius: 15px;
+}
+
+.social {
+  display: inline-block;
+  font-size: 2em;
+  text-indent: 1em;
+}
+
+.social p {
+  color: #fff;
   margin: auto;
 }
