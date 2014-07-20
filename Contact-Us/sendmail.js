@@ -18,9 +18,9 @@ $(document).ready(function() {
 
     function sendmail() {
       m.messages.send(params, function(res) {
-            log(res);
+          $(".csc").html('<span style="font-size: 25px; color: #fff" class="sent-message right-alig">Your Message Has Been Sent!</span>');
         }, function(err) {
-            log(err);
+            $(".csc").html('<span style="font-size: 25px">There Was An ERROR!</span>');
         });
     }
 

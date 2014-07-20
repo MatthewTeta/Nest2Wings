@@ -17,16 +17,36 @@ nav {
   right: 0;
   left: 0;
   width: 100%;
-  background-color: #ff9999;
+  background-color: #f99;
   text-align: center;
   z-index: 2;
 }
 
-nav a {
+nav div {
   display: inline-block;
+  margin: 0;
+  width: auto;
+}
+
+nav div div {
+  display: none;
+  position: fixed;
+  top: 3.25em;
+  width: 175px;
+  height: 40px;
+  background-color: #fdd;
+}
+
+nav div:hover div {
+  display: block;
+}
+
+nav div a {
+  display: block;
   color: #fff;
   padding: 0.5em 1em;
   margin: 0;
+  line-height: 1em;
   font-size: 1.5em;
   font-family: Roboto;
   text-decoration: none;
@@ -40,7 +60,7 @@ nav a {
   font-family: "Comic Sans MS", sans-serif;
 }
 
-nav a:hover {
+nav div a:hover {
   background-color: #ffadad;
   border-bottom-width: 0.17em;
   border-top-width: 0;
@@ -50,7 +70,7 @@ nav a:hover {
   border-color: #fff;
 }
 
-nav a.active {
+nav div a.active {
   background-color: #ffc0c0;
   border-bottom-width: 0.17em;
   border-top-width: 0;
@@ -155,8 +175,21 @@ img.sponsors, img.center-img {
   color: #fff;
 }
 
-.form input {
+.form input, .form textarea {
   display: block;
   width: 75%;
   height: calc(100% / 5);
+  border: 0;
+  border-radius: 0;
+  border: 1px solid black;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.form textarea {
+  resize: none;
+}
+
+.form input[name="submit"] {
+  background-color: #fff;
 }
