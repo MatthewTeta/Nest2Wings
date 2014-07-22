@@ -35,6 +35,11 @@ nav div div {
   width: 175px;
   height: 40px;
   background-color: #fdd;
+  -webkit-transition: background-color 0.75s, border-color 0.75s;
+}
+
+nav div:nth-child(2) {
+  top: 6.33em;
 }
 
 nav div:hover div {
@@ -60,8 +65,18 @@ nav div a {
   font-family: "Comic Sans MS", sans-serif;
 }
 
-nav div a:hover {
+nav div a:hover, nav div div a {
   background-color: #ffadad;
+  border-bottom-width: 0.17em;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: solid;
+  border-color: #fff;
+}
+
+nav div div a:hover {
+  background-color: #ffc0c0;
   border-bottom-width: 0.17em;
   border-top-width: 0;
   border-left-width: 0;
